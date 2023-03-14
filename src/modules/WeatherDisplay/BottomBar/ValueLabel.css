@@ -1,0 +1,10 @@
+.value-label-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+}
