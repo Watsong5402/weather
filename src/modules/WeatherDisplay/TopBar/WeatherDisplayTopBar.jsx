@@ -4,7 +4,7 @@ import search from "../../../media/media-icons/search_FILL0_wght400_GRAD0_opsz48
 import { useState } from "react";
 
 const WeatherDisplayTopBar = (props) => {
-  const [locale, setLocale] = useState("SPOKANE,WA");
+  const [locale, setLocale] = useState("SPOKANE");
   const inputValueChanged = (v) => {
     setLocale(v);
   };

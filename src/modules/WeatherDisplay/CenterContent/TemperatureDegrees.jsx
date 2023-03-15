@@ -1,7 +1,7 @@
 import "./TemperatureDegrees.css";
 
 const formatTemperatureCelsius = (temperature) => {
-  return (temperature - 273).toPrecision(1);
+  return (temperature - 273).toPrecision(3);
 };
 
 const TemperatureDegrees = (props) => {
